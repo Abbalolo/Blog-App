@@ -6,7 +6,7 @@ const Home = () => {
     data: blogs,
     isPending,
     error,
-  } = useFetch("http://localhost:3000/blogs");
+  } = useFetch("https://loloblog.netlify.app");
 
   return (
     <div className="home">

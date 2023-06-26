@@ -7,10 +7,10 @@ const BlogDetails = () => {
     data: blog,
     error,
     isPending,
-  } = useFetch("http://localhost:3000/blogs/" + id);
+  } = useFetch("https://loloblog.netlify.app" + id);
   const navigate = useNavigate();
   const handleClick = () => {
-    fetch("http://localhost:3000/blogs/" + blog.id, {
+    fetch("https://loloblog.netlify.app/blogs" + blog.id, {
       method: "DELETE",
     }).then(() => {
       navigate("/");
