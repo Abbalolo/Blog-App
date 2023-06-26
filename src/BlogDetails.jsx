@@ -7,7 +7,7 @@ const BlogDetails = () => {
     data: blog,
     error,
     isPending,
-  } = useFetch("https://loloblog.netlify.app/blogs/" + id);
+  } = useFetch("http://localhost:3000/blogs/" + id);
   const navigate = useNavigate();
   const handleClick = () => {
     fetch("http://localhost:3000/blogs/" + blog.id, {
