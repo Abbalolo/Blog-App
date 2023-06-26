@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600;700&family=Darker+Grotesque:wght@400;500;600;700;800&family=Fira+Code:wght@300;500;600;700&family=Heebo:wght@200;300;500;600;700&family=Montserrat:wght@300;400;500;600&family=Oswald:wght@300;400;500;600&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar h1{
+  color: rgb(47, 109, 232);
+
+}
+.links{
+padding:  20px;
+
+
+}
+.navbar a{
+text-decoration: none;
+margin: 0 10px;
+font-weight: 600;
+
+}
+
+.navbar a:hover{
+  color: rgb(47, 109, 232);
+}
+
+.content{
+  max-width: 600px;
+ margin: 40px auto;
+  padding: 20px;
+}
+
+.blog-preview{
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid rgb(236, 230, 230);
+}
+.blog-preview:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.blog-preview h2{
+  color: rgb(47, 109, 232);
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.blog-preview a {
+  text-decoration: none;
+}
+.create{
+  max-width:480px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label{
+  text-align: center;
+  display: block;
+}
+
+.create h2{
+  font-size: 28px;
+  color: rgb(47, 109, 232);
+  margin-bottom: 1em;
+}
+
+.create input, .create textarea, .create select{
+  width: 100%;
+  padding: 6px 18px;
+  margin: 36px 0;
+  border: 3px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button, .blog-details button{
+  margin-top: 1em;
+  background-color:rgb(47, 109, 232);
+  border: 0;
+  color: #fff;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
